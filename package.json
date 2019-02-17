@@ -1,6 +1,6 @@
 {
   "name": "node-str",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "debug": "^4.1.1",
     "express": "^4.16.4",
     "http": "0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
